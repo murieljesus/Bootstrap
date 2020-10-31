@@ -1,0 +1,20 @@
+.jumbotron {
+    background-color: blue;
+    color: white;
+}
+
+.foter {
+    padding: 10px 10px 0 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    background-color: rgb(158, 167, 255);
+}
+
+.card-desc {
+    flex: 1 150px;
+    padding: 2px 5px 2px 5px;
+}
+
+.btn-style {
+    width: 100%;
+}
