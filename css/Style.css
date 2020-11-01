@@ -10,8 +10,8 @@
     background-color: rgb(158, 167, 255);
 }
 
-.card-desc {
-    flex: 1 150px;
+.card-description {
+    flex: 50px;
     padding: 2px 5px 2px 5px;
 }
 
