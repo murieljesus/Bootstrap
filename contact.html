@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta content="width=device-width, initial-scale=1,
+            shrink-to-fit=no" name="viewport">
+    <!-- Bootstrap CSS -->
+    <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/Style.css" rel="stylesheet">
+    <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
+    <title>Hotel</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-md navbar-dark bg-dark fixed-top">
+        <a class="navbar-brand" href="#"> Hoteles</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html"> Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href=""> Precios</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html"> Nosotros</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link " href="contact.html"> Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div class="jumbotron">
+        <h1 class="display-4">Hoteles</h1>
+    </div>
+    <div class="container">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item ">
+                    <a href="index.html">Home</a>
+                </li>
+                <li class="breadcrumb-item active" aria-current="page">Contacto</li>
+            </ol>
+        </nav>
+        <h1>Contacto</h1>
+        <form action="">
+            <div class="form-row">
+                <div class="form-group col-sm-6">
+                    <label for="name"> Nombre</label>
+                    <input type="text" class="form-control" id="name" placeholder="Ingrese su nombre">
+                </div>
+                <div class="form-group col-sm-6">
+                    <label for="lastname"> Apellido</label>
+                    <input type="text" class="form-control" id="lastname" placeholder="Ingrese su Apellido">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="email"> Email</label>
+                <input type="email" class="form-control" id="email" placeholder="Ingrese su Email">
+            </div>
+            <div class="form-row">
+                <div class="form-group col-sm-9">
+                    <label for="address"> Direccion</label>
+                    <input type="text" class="form-control" id="address" placeholder="Ingrese su domicilio">
+                </div>
+                <div class="form-group col-sm-3">
+                    <label for="state"> Provincia</label>
+                    <select class="form-control" id="state">
+                            <option selected>Buenos Aires</option>
+                            <option>Santa Fe</option>
+                            <option>Cordoba</option>
+                            <option>Mendoza</option>
+                            <option>San Juan</option>
+                        </select>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="msj">Mensaje</label>
+                <textarea name="" id="msj" cols="30" rows="6" class="form-control">
+                    
+                </textarea>
+            </div>
+            <div class="form-group">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" id="check">
+                    <label class="form-check-label" for="check"> 
+                    Contactarme</label>
+                </div>
+
+            </div>
+            <button type="submit" class="btn btn-primary"> Enviar</button>
+        </form>
+    </div>
+    <footer class="foter">
+        <div class="d-flex flex-wrap">
+            <div class="col-md-4 d-flex flex-column">
+                <a href="www.facebook.com">Facebook</a>
+                <a href="www.twitter.com">Twitter</a>
+                <a href="www.instagram.com">Instagram</a>
+            </div>
+            <div class="col-md-4">
+                <address>
+                        <p>
+                            <span class="oi oi-home"></span>
+                            Av de mayo 2222 , BA, Argentina
+                        </p>
+                        <p>
+                            <span class="oi oi-phone"></span>
+                            +598887362
+                        </p>
+                        <p>
+                            <span class="oi oi-envelope-closed"></span>
+                            hoteles@gmail.com
+                        </p>
+                    </address>
+            </div>
+            <div class="col-md-4 d-flex flex-column align-items-end">
+                <a href="www.facebook.com">Contatco</a>
+                <a href="www.twitter.com">Terminos y condiciones</a>
+            </div>
+        </div>
+    </footer>
+</body>
+<script src="node_modules/jquery/dist/jquery.min.js"></script>
+<script src="node_modules/popper.js/dist/popper.min.js"></script>
+<script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
+
+</html>
