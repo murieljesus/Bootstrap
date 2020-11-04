@@ -1,5 +1,5 @@
 .jumbotron {
-    margin-top: 30px;
+    margin-top: 40px;
     background-color: blue;
     color: white;
 }
@@ -12,10 +12,12 @@
 }
 
 .card-description {
-    flex: 50px;
-    padding: 2px 5px 2px 5px;
+    flex: 150px;
+    padding: 2px 0px 2px 0px;
+    margin-top: 10px;
 }
 
 .btn-style {
     width: 100%;
+    border-radius: 0px;
 }
