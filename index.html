@@ -45,18 +45,29 @@
                 <li class="breadcrumb-item active" aria-current="page"> Home</li>
             </ol>
         </nav>
-        <div class="d-flex">
+        <div class="row">
             <div class="col-sm-4">
+                <button class="btn btn-primary" type="button" data-toggle="collapse" aria-expanded="false" data-target="#a" aria-controls="multi1"> boton1</button>
+            </div>
+            <div class="col-sm-4">
+                <button class="btn btn-primary" type="button" data-toggle="collapse" aria-expanded="false" data-target="#b" aria-controls="multi2"> boton2</button>
+            </div>
+            <div class="col-sm-4">
+                <button class="btn btn-primary" type="button" data-toggle="collapse" aria-expanded="false" data-target="#c" aria-controls="multi3"> boton3</button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-4 collapse multi-collapse " id="a">
                 <h3>Nuestros Hoteles</h3>
                 <p>Contamos con la mayor cadena de Hoteles dentro del pais.</p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 collapse multi-collapse " id="b">
                 <h3>Servicio</h3>
                 <p>
                     Nuestro servicio contempla los estadares internacionales y es mejorado dia a dia.
                 </p>
             </div>
-            <div class="col-sm-4">
+            <div class="col-sm-4 collapse multi-collapse " id="c">
                 <h3>Quienes Somos</h3>
                 <p>
                     Mas de 20 años de experiencia respalda nuestra calidad dentro del ambito Hotelero.
