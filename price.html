@@ -101,76 +101,73 @@
                 </div>
             </div>
             <div class="tab-pane fade show " id="coments" role="tabpanel" aria-label="coments-tab">
-                <div class="table-responsive">
-                    <table class="table">
-                        <thead class="thead-dark">
-                            <th>Habitaciones</th>
-                            <th>Calidad</th>
-                            <th>San juan</th>
-                            <th>Cordoba</th>
-                        </thead>
-                        <tbody>
-                            <td>
-                                <span class="oi oi-star" style="color: yellow;"></span>
-                            </td>
-                            <td>$120</td>
-                            <td>$120</td>
-                            <td>$120</td>
-                        </tbody>
-                        <tbody>
-                            <td>
-                                <span class="oi oi-star" style="color: yellow;"></span>
-                                <span class="oi oi-star" style="color: yellow;"></span>
-                            </td>
-                            <td>$220</td>
-                            <td>$320</td>
-                            <td>$420</td>
-                        </tbody>
-                        <tbody>
-                            <td>
-                                <span class="oi oi-star" style="color: yellow;"></span>
-                                <span class="oi oi-star" style="color: yellow;"></span>
-                                <span class="oi oi-star" style="color: yellow;"></span>
-                            </td>
-                            <td>$520</td>
-                            <td>$620</td>
-                            <td>$720</td>
-                        </tbody>
-                    </table>
+                <div class="accordion" id="accordin">
+                    <div class="card">
+                        <div class="card-header" id="heading">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapsebasic" aria-expanded="true" aria-controls="collapsebasic">
+                                Visa
+                            </button>
+                            </h5>
+                        </div>
+                        <div class="collapse" id="collapsebasic" aria-labelledby="heading" data-parent="#accordin">
+                            <div class="card-body">
+                                3 cuotas sin interes
+                            </div>
+                        </div>
+                    </div>
                 </div>
+                <div class="accordion" id="accordin2">
+                    <div class="card">
+                        <div class="card-header" id="heading">
+                            <h5 class="mb-0">
+                                <button class="btn btn-link" type="button" data-toggle="collapse" data-target="#collapsebasic1" aria-expanded="false" aria-controls="collapsebasic">
+                                Visa
+                            </button>
+                            </h5>
+                        </div>
+                        <div class="collapse" id="collapsebasic1" aria-labelledby="heading" data-parent="#accordin2">
+                            <div class="card-body">
+                                3 cuotas sin interes
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
             </div>
         </div>
     </div>
-    <footer class="foter">
-        <div class="d-flex flex-wrap">
-            <div class="col-md-4 d-flex flex-column">
-                <a href="www.facebook.com">Facebook</a>
-                <a href="www.twitter.com">Twitter</a>
-                <a href="www.instagram.com">Instagram</a>
-            </div>
-            <div class="col-md-4">
-                <address>
-                        <p>
-                            <span class="oi oi-home"></span>
-                            Av de mayo 2222 , BA, Argentina
-                        </p>
-                        <p>
-                            <span class="oi oi-phone"></span>
-                            +598887362
-                        </p>
-                        <p>
-                            <span class="oi oi-envelope-closed"></span>
-                            hoteles@gmail.com
-                        </p>
-                    </address>
-            </div>
-            <div class="col-md-4 d-flex flex-column align-items-end">
-                <a href="www.facebook.com">Contatco</a>
-                <a href="www.twitter.com">Terminos y condiciones</a>
-            </div>
-        </div>
-    </footer>
+
 </body>
+<footer class="foter">
+    <div class="d-flex flex-wrap">
+        <div class="col-md-4 d-flex flex-column">
+            <a href="www.facebook.com">Facebook</a>
+            <a href="www.twitter.com">Twitter</a>
+            <a href="www.instagram.com">Instagram</a>
+        </div>
+        <div class="col-md-4">
+            <address>
+                    <p>
+                        <span class="oi oi-home"></span>
+                        Av de mayo 2222 , BA, Argentina
+                    </p>
+                    <p>
+                        <span class="oi oi-phone"></span>
+                        +598887362
+                    </p>
+                    <p>
+                        <span class="oi oi-envelope-closed"></span>
+                        hoteles@gmail.com
+                    </p>
+                </address>
+        </div>
+        <div class="col-md-4 d-flex flex-column align-items-end">
+            <a href="www.facebook.com">Contatco</a>
+            <a href="www.twitter.com">Terminos y condiciones</a>
+        </div>
+    </div>
+</footer>
 <script src="node_modules/jquery/dist/jquery.min.js"></script>
 <script src="node_modules/popper.js/dist/popper.min.js"></script>
 <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>

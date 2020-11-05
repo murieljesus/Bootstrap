@@ -12,8 +12,7 @@
 }
 
 .card-description {
-    flex: 150px;
-    padding: 2px 0px 2px 0px;
+    flex: 1 150px;
     margin-top: 10px;
 }
 
