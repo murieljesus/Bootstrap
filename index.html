@@ -128,7 +128,7 @@
                 <img class="card-img-top" src="1.jpg " alt="hotel img ">
                 <div class="card-body ">
                     <h5 class="card-title ">Hotel 4 estrella
-                        <span class="badge badge-success "> Recomendado</span>
+                        <span class="badge badge-success " data-toggle="popover" data-placement="top" data-content="mejor valuado"> Recomendado</span>
                     </h5>
                     <h6 class="card-subtitle text-muted p-sm-1 ">Patagonia</h6>
                     <p class="card-text ">Excelente hotel con el mejor servicio y en el centro de la ciudad</p>
@@ -192,6 +192,64 @@
                         </button>
                 </div>
             </div>
+            <div class="card card-description  justify-content-between ml-2 ">
+                <img class="card-img-top " src="3.jpg " alt="hotel img">
+                <div class="card-body ">
+                    <h5 class="card-title ">Hotel 4 estrellas
+                        <span class="badge badge-warning " data-toggle="popover" data-placement="top" data-content="35% de descuento"> Descuento</span>
+                    </h5>
+
+
+                    <h6 class="card-subtitle text-muted p-sm-1 ">Patagonia</h6>
+                    <p class="card-text ">Excelente hotel con el mejor servicio y en el centro de la ciudad</p>
+                </div>
+                <div>
+                    <button class="btn btn-style btn-success " type="button ">
+                            Reservar
+                            <span class="oi oi-check " style="color:black "></span>
+                        </button>
+                </div>
+            </div>
+
+            <div class="card card-description  justify-content-between ml-2 ">
+                <img class="card-img-top img-fluid " src="4.jpg " alt="hotel img ">
+                <div class="card-body ">
+                    <h5 class="card-title ">Hotel 4 estrellas
+                        <span class="badge badge-danger "> Nuevo</span>
+
+                    </h5>
+
+
+                    <h6 class="card-subtitle text-muted p-sm-1 ">Patagonia</h6>
+                    <p class="card-text ">Excelente hotel con el mejor servicio y en el centro de la ciudad</p>
+                </div>
+                <div>
+                    <button class="btn btn-style btn-success " type="button ">
+                            Reservar
+                            <span class="oi oi-check " style="color:black "></span>
+                        </button>
+                </div>
+            </div>
+            <div class="card card-description  justify-content-between ml-2 ">
+                <img class="card-img-top " src="3.jpg " alt="hotel img">
+                <div class="card-body ">
+                    <h5 class="card-title ">Hotel 4 estrellas
+                        <span class="badge badge-warning " data-toggle="popover" data-placement="top" data-content="25% de descuento"> Descuento</span>
+                    </h5>
+
+
+                    <h6 class="card-subtitle text-muted p-sm-1 ">Patagonia</h6>
+                    <p class="card-text ">Excelente hotel con el mejor servicio y en el centro de la ciudad</p>
+                </div>
+                <div>
+                    <button type="button" class="btn btn-style btn-success ">
+                            Reservar
+                            <span class="oi oi-check " style="color:black "></span>
+                        </button>
+                </div>
+            </div>
+
+
         </div>
     </div>
     <footer class="foter ">
@@ -223,9 +281,16 @@
             </div>
         </div>
     </footer>
+    <script src="node_modules/jquery/dist/jquery.min.js "></script>
+    <script src="node_modules/popper.js/dist/umd/popper.min.js "></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.min.js "></script>
+
+    <script>
+        $(function() {
+            $('[data-toggle="popover"]').popover();
+        })
+    </script>
+
 </body>
-<script src="node_modules/jquery/dist/jquery.min.js "></script>
-<script src="node_modules/popper.js/dist/popper.min.js "></script>
-<script src="node_modules/bootstrap/dist/js/bootstrap.min.js "></script>
 
 </html>
