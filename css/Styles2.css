@@ -1,5 +1,6 @@
 .jumbotron {
   margin-top: 40px;
+  margin-bottom: 0px;
   background-color: #38a832;
   color: #f3f7f2;
 }
@@ -12,6 +13,7 @@
 .card-description {
   flex: 1 150px;
   margin-top: 10px;
+  margin-bottom: 0px;
 }
 .btn-style {
   width: 100%;
