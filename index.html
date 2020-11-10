@@ -9,7 +9,7 @@
     <!-- Bootstrap CSS -->
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="node_modules/open-iconic/font/css/open-iconic-bootstrap.min.css">
-    <link href="css/Style.css" rel="stylesheet">
+    <link href="css/Styles2.css" rel="stylesheet">
     <title>Hotel</title>
 </head>
 
@@ -254,7 +254,7 @@
                     <p class="card-text ">Excelente hotel con el mejor servicio y en el centro de la ciudad</p>
 
                 </div>
-                <button type="button" class="btn btn-outline-info btn-sm m-1" data-toggle="modal" data-target="#contact">Contacto</button>
+                <button type="button" class="btn btn-outline-info btn-sm m-1" data-toggle="modal" data-target="#contact" id="contactobtn">Contacto</button>
                 <div>
                     <button type="button" class="btn btn-style btn-success ">
                             Reservar
@@ -329,7 +329,31 @@
     <script>
         $(function() {
             $('[data-toggle="popover"]').popover();
-        })
+
+            $("#contact").on('show.bs.modal', function(e) {
+                console.log('el modal se esta mostrando');
+
+                $("#contactobtn").removeClass('btn - outline - info');
+                $("#contactobtn").addClass('btn-info');
+                $("#contactobtn").prop('disabled', true);
+
+
+            });
+            $("#contact").on('shown.bs.modal', function(e) {
+                console.log('el modal se mostro');
+
+            });
+
+            $("#contact").on('hidden.bs.modal', function(e) {
+                console.log('el modal esta oculto');
+
+            });
+
+            $("#contact").on('hide.bs.modal', function(e) {
+                console.log('el modal se oculto');
+
+            });
+        });
     </script>
 
 </body>

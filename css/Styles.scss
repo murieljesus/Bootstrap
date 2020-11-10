@@ -1,0 +1,29 @@
+$green:#38a832;
+$white:#f3f7f2;
+@mixin margenes ($top, $bottom) {
+    margin-top: $top;
+    margin-bottom: $bottom;
+}
+
+.jumbotron {
+    @include margenes(50px, 0px);
+    background-color: $green;
+    color: $white;
+}
+
+.foter {
+    padding: 10px 10px 0 10px;
+    @include margenes(10px, 0px);
+    margin-bottom: 0px;
+    background-color: rgb(158, 167, 255);
+}
+
+.card-description {
+    flex: 1 150px;
+    @include margenes(10px, 0px);
+}
+
+.btn-style {
+    width: 100%;
+    border-radius: 0px;
+}
