@@ -1,21 +1,24 @@
 .jumbotron {
-  margin-top: 40px;
-  margin-bottom: 0px;
-  background-color: #38a832;
-  color: #f3f7f2;
+    margin-top: 40px;
+    margin-bottom: 0px;
+    background-color: #38a832;
+    color: #f3f7f2;
 }
+
 .foter {
-  padding: 10px 10px 0 10px;
-  margin-top: 10px;
-  margin-bottom: 0px;
-  background-color: #9ea7ff;
+    padding: 10px 10px 0 10px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    background-color: #9ea7ff;
 }
+
 .card-description {
-  flex: 1 150px;
-  margin-top: 10px;
-  margin-bottom: 0px;
+    flex: 1 150px;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
+
 .btn-style {
-  width: 100%;
-  border-radius: 0px;
+    width: 100%;
+    border-radius: 0px;
 }
